@@ -67,7 +67,7 @@ pages-box{
     margin: 30px;
     padding: 50px;
     border-radius: 100px;
-    background-color: rgba(61, 128, 122, 0.123);
+    background-color: rgba(114, 129, 179, 0.219);
     box-shadow: 0 0 10px rgba(53, 82, 109, 0.329);
 }
 
@@ -80,17 +80,17 @@ pages-box{
     background-color: rgb(255, 255, 255);
 }
 
-.subpage advertisement{
+.subpage fast-panel{
     display: block;
     margin: 10px;
     padding: 20px;
-    background-color: rgb(219, 219, 219);
-    min-width: 200px;
+    background-color: rgba(114, 129, 179, 0.219);
+    min-width: 100px;   
     min-height: 200px;
     border-radius: 30px;
 }
 
-.subpage advertisement img{
+.subpage fast-panel img{
     margin: auto;
     border-radius: 10px;
 }
