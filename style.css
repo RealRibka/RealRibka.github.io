@@ -1,0 +1,112 @@
+html{
+    height: 100%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(161, 161, 161);
+    background-image: url(https://avatars.mds.yandex.net/get-altay/4447467/2a00000179493f7f5e6b4af66bbb07569df0/XXXL);
+    backdrop-filter: blur(8px);
+    height: auto;
+    width: auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 10px;
+}
+
+.logo{
+    margin-left: 2%;
+}
+
+.menu{
+    display: block;
+  list-style: none;
+  color:rgb(214, 226, 233);
+}
+main{
+    display: grid;
+    font-family: "Roboto";
+    min-height: 100%;
+}
+
+pages-box{
+    display: flex;
+    width: 100%;
+    min-height: calc(100vh - 190px);
+}
+
+.page{
+    display: flex;
+    border-radius: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 75%;
+    color: rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.page h1{
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin:auto;
+}
+.page p{
+    font-size: 20px;
+}
+
+.page .citations{
+    margin: 30px;
+    padding: 50px;
+    border-radius: 100px;
+    background-color: rgba(61, 128, 122, 0.123);
+    box-shadow: 0 0 10px rgba(53, 82, 109, 0.329);
+}
+
+.subpage{
+    border-radius: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 23%;
+    color: rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
+}
+
+.subpage advertisement{
+    display: block;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(219, 219, 219);
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 30px;
+}
+
+.subpage advertisement img{
+    margin: auto;
+    border-radius: 10px;
+}
+.footer{
+    margin-top: 10px;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color:rgb(53, 53, 53);
+}
+.footer footer-text{
+    margin:auto;
+    color: rgb(216, 216, 216);
+    padding: 10px;
+    height: auto;
+    border-radius: 50px;
+    background-color: rgb(56, 56, 56);
+    box-shadow:  0 0 10px rgb(24, 24, 24);
+}
