@@ -11,8 +11,13 @@
     border-radius: 100px;
     overflow:hidden;
     text-decoration: none;
-    transition: 0.2s;
+    z-index: 1;
 }
+.button a{
+    text-decoration: none;
+    z-index: 1;
+}
+
 .button__background{
     top: 100%;
     left: 100%;
@@ -22,6 +27,7 @@
     position: absolute;
     display: block;
     background: linear-gradient(180deg, rgba(34, 59, 94, 0.2), rgba(40, 100, 156, 0.2));
+    z-index: -1;
 }
 .button__background--red{
     top: 100%;

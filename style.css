@@ -29,12 +29,15 @@ header {
 .menu{
     display: block;
   list-style: none;
+  z-index: 2;
+  padding: 50px;
   color:rgb(214, 226, 233);
 }
 main{
     display: grid;
     font-family: "Roboto";
     min-height: 100%;
+    font-size: 18px;
 }
 
 pages-box{
@@ -46,9 +49,9 @@ pages-box{
 .page{
     display: flex;
     border-radius: 30px;
-    margin-left: 1%;
-    margin-right: 1%;
-    width: 75%;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
     color: rgb(34, 34, 34);
     background-color: rgb(255, 255, 255);
     
